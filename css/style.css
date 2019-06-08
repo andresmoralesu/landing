@@ -16,17 +16,7 @@ p{
   color: white;
 }
 
-section {
-  padding: 80px 0;
-}
-
-section h2{
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-/*Headings*/
+/* Headings */
 
 header{
   position: fixed;
@@ -53,7 +43,7 @@ header nav a.active{
   border-radius: 3px;
 }
 
-/*Home*/
+/* Home */
 
 #home{
   text-align: center;
@@ -102,12 +92,7 @@ header nav a.active{
   background-color: #fed136
 }
 
-/*Servicios*/
-
-#servicios{
-  padding:7% 15%;
-  position: relative;
-}
+/* Servicios */
 
 .servicios-title{
   font-size: 2.5rem;
@@ -122,13 +107,13 @@ header nav a.active{
    padding: 10px;
 }
 
-/*Portafolio*/
-
 .portafolio-title{
   font-size: 2.5rem;
   font-weight:bold;
   text-align: center;
 }
+
+/* Portafolio */
 
 #portafolio{
   background-color: whitesmoke;
@@ -147,7 +132,7 @@ header nav a.active{
   padding: 10px;
 }
 
-/*Testimonios*/
+/* Testimonios */
 
 #testimonials{
   font-family: "Montserrat";
@@ -171,7 +156,7 @@ header nav a.active{
   padding: 7% 15%;
 }
 
-/*Press*/
+/* Press */
 
 #press{
   background-color: #939393;
@@ -184,7 +169,7 @@ header nav a.active{
   margin: 20px 20px 50px;
 }
 
-/*Video*/
+/* Video */
 
 #video{
   background-color: black;
@@ -192,7 +177,7 @@ header nav a.active{
   padding: 30px 0;
 }
 
-/*Contacto*/
+/* Contacto */
 
 #contacto{
   background-color: #303030;
@@ -235,7 +220,7 @@ header nav a.active{
   font-weight: bold;
 }
 
-/*Footer*/
+/* Footer */
 
 footer{
   padding: 90px 0;
@@ -243,10 +228,25 @@ footer{
   font-size: 18px;
 }
 
+section {
+  padding: 80px 0;
+}
+
+section h2{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 .container{
   width: 992px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#servicios{
+  padding:7% 15%;
+  position: relative;
 }
 
 .feature-title{
@@ -258,13 +258,17 @@ footer{
   padding: 5%;
 }
 
+.icon{
+  margin-bottom: 1rem;
+}
+
 .footer{
   background-color: #FFF;
   text-align: center;
   padding:7% 15%;
 }
 
-/*Media Queris for responsive design*/
+/* Media Queris para responsive design */
 
 @media (max-width:1028px){
   p{
@@ -274,6 +278,7 @@ footer{
   em{
     font-size: 20px;
   }
+
   a{
     font-size: 20px;
   }
